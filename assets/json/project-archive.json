@@ -1,0 +1,118 @@
+{
+    "archive":[
+        {
+            "Year":"2023",
+            "Project":"IKA Properties Mobile App",
+            "Client":"IKA Homes & Properties Ltd",
+            "Stack":"Flutter",
+            "Link":"https://play.google.com/store/apps/details?id=com.ikaproperties.ikaappnew"
+        },
+        {
+            "Year":"2023",
+            "Project":"LYEN Inventory Management System",
+            "Client":"Lyen Beauty Parlour & Cosmetic Products Ltd",
+            "Stack":"C#",
+            "Link":"http://lyenbp.net/identity/account/login"
+        },
+        {
+            "Year":"2023",
+            "Project":"Mindhub",
+            "Client":"ALX Project Work",
+            "Stack":"flutter",
+            "Link":"https://drive.google.com/file/d/18-lSSRL66b__f_JaiVtx6FYhG4XLZf9J/view"
+        },
+        {
+            "Year":"2023",
+            "Project":"Flight Booking System (integrating into the Wakanow API) - in progress",
+            "Client":"CalBank PLC",
+            "Stack":"C#",
+            "Link":null
+        },
+        {
+            "Year":"2023",
+            "Project":"Backend portal of Walker System with advanced reporting dashboard",
+            "Client":"CalBank PLC",
+            "Stack":"C#",
+            "Link": null
+        },
+        {
+            "Year":"2023",
+            "Project":"AgentBanking System (Web)",
+            "Client":"CalBank PLC",
+            "Stack":"C#",
+            "Link":"https://ams.caleservice.net/"
+        },
+        {
+            "Year":"2023",
+            "Project":"Backend portal of Pan- African Payment and Settlement System (PAPSS) ",
+            "Client":"CalBank PLC",
+            "Stack":"C#",
+            "Link": null
+        },
+        {
+            "Year":"2023",
+            "Project":"Domestic Debt Exchange Programme Portal ",
+            "Client":"CalBank PLC",
+            "Stack":"C#",
+            "Link": null
+        },
+        {
+            "Year":"2023",
+            "Project":"Legal Contracts & Securities Management System ",
+            "Client":"CalBank PLC",
+            "Stack":"C#",
+            "Link": null
+        },
+        {
+            "Year":"2022",
+            "Project":"NutonLabs.com ",
+            "Client":"NutonLabs Technologies",
+            "Stack":"Angular",
+            "Link":"https://www.nutonlabs.com"
+        },
+        {
+            "Year":"2022",
+            "Project":"E-levy Calculator ",
+            "Client":"NutonLabs Technologies",
+            "Stack":"Angular, Ionic, Capacitor",
+            "Link":"https://www.nutonlabs.com/products/e-levy-calculator"
+        },
+        
+        {
+            "Year":"2021",
+            "Project":"NAVIS API",
+            "Client":"National Health Insurance Authority",
+            "Stack":"C#",
+            "Link": null
+        },
+        {
+            "Year":"2020",
+            "Project":"E-receipt 2 (Membership tools)",
+            "Client":"National Health Insurance Authority",
+            "Stack":"C#, Angular",
+            "Link": null
+        },
+        {
+            "Year":"2020",
+            "Project":"Ittino ERP",
+            "Client":"Ittino Solutions",
+            "Stack":"C#, Blazor",
+            "Link": null
+        },
+        {
+            "Year":"2018",
+            "Project":"Business Activity Monitor for MFT ",
+            "Client":"Accolm",
+            "Stack":"Java, JSF",
+            "Link":"https://www.accolm.com/site/products/managed-file-transfer/accolm-bam"
+        },
+        {
+            "Year":"2017",
+            "Project":"SecureMyFiles",
+            "Client":"Research work (KNUST)",
+            "Stack":"Java",
+            "Link": null
+        }
+        
+    ]
+}
