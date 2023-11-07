@@ -1,0 +1,48 @@
+.container{
+    border-radius: 10px;
+    // padding: 1rem;
+    background: rgb(17, 42, 75, .6);
+    margin: 5rem;
+    width: 90vw;
+    overflow-y: auto; /* make the table scrollable if height is more than height set  */
+    height: 500px; /* gives an initial height of 200px to the table */
+    color: #fff;
+}
+.container thead th {
+    position: sticky; /* make the table heads sticky */
+    top: 0px; /* table head will be placed from the top of the table and sticks to it */
+  }
+
+table{
+    width: 100%;
+    border-collapse:collapse;
+}
+tr{
+    border-bottom: 1pt solid rgb(17, 42, 75);
+}
+th{
+    text-align: left;
+    // background: #eee;
+    background: rgb(17, 42, 75);
+}
+th, td {
+    padding: 1rem;
+  }
+
+  .back, h1{
+    padding: 1rem;
+  }
+  
+  tbody{
+    color: #607b96;// #cdc8c8f5;
+  }
+
+  a, .back{
+    color: orange;
+  }
+
+  .back a{
+    text-decoration: none;
+    padding-left: .5rem;
+  }
+

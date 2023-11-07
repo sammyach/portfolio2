@@ -1,0 +1,63 @@
+<div class="wrapper">
+    <aside>
+        <div class="sidebar">
+          <div>
+            <div class="full-name">Samuel Acheampong</div>
+            <!-- <div class="position">Applications Developer at CalBank PLC</div> -->
+      
+            <div class="profile">
+                Experienced full-stack developer and certified Salesforce Associate focused on delivering intuitive digital solutions and experiences on both mobile and web
+            </div>
+            <div class="cred">
+                BSc Computer Science | <a href="https://www.salesforce.com/trailblazer/samach" target="_blank">Certified Salesforce Associate <i class="fa fa-external-link" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <ul>
+            <li><a (click)="onLinkClick('about')" class="{{activeAbout}}" href="#about"><i class="fa fa{{activeAbout == ''?'':'-check'}}-square-o" aria-hidden="true"></i> About</a></li>
+            <li><a (click)="onLinkClick('exp')" class="{{activeExp}}" href="#experience"><i class="fa fa{{activeExp == ''?'':'-check'}}-square-o" aria-hidden="true"></i> Experience</a></li>
+            <li><a (click)="onLinkClick('proj')" class="{{activeProj}}" href="#projects"><i class="fa fa{{activeProj == ''?'':'-check'}}-square-o" aria-hidden="true"></i> Featured Projects</a></li>
+            
+          </ul>
+          <div class="socials">
+            <a href="https://github.com/sammyach" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/samscode" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </div>
+        </div>
+        
+      </aside>
+      <main>
+        <div class="wrapper_inner">
+          <section id="about">
+            <div class="section-title">LITTLE ABOUT ME</div>
+                <p>
+                    I have always enjoyed tinkering with things that were broken whiles growing up. I would want to figure out how they work and then try to fix them. I believe my knack for finding solutions to problems started from there. Simply put, I enjoy solving problems. 
+
+                </p>
+                <p>
+                    Fast forward, I have had the opportunity to provide creative/digital solutions to a <b>startup</b>, a <b>government agency</b> and a <b>top commercial bank</b>, just to name a few.
+
+                </p>
+                <p>
+                    Recently, whiles working on a solution for a particular client, I came across Salesforce. I liked the platform and since then my focus these days has been learning and understanding the platform and building exciting solutions to compliment and contribute to its ecosystem on the side.
+
+                </p>
+                <p>
+                    When I'm not behind the computer, I usually take a walk or road trip to clear my head lol, or hangout with my girlfriend.
+
+                </p>
+            </section>
+        
+        
+            <section id="experience">
+                <div class="section-title">WORK EXPERIENCE</div>
+                <app-experience></app-experience>
+            </section> 
+        
+            <section id="projects">
+                <div class="section-title">FEATURED PROJECTS</div>
+            <app-featured-projects></app-featured-projects>
+          </section>
+        </div>
+      </main>
+
+</div>

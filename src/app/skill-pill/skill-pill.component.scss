@@ -1,0 +1,23 @@
+
+.pills{
+    flex: 1;
+    display: flex;
+    // justify-content: space-around;
+  }
+  
+  .pills img{
+    width: 100%;
+    // height: 25px;
+  
+  }
+  
+  .pill{
+    background: orange;
+    color: rgb(17, 42, 75);;
+    border-radius: 25px;
+    padding: .2rem .4rem;
+    font-size: .7rem;
+    margin-right: .5rem;
+    text-align: center;
+    max-height: 20px;
+  }

@@ -1,0 +1,30 @@
+.container{
+    // margin-top: 5rem;
+}
+
+.project{
+    display: flex;
+    margin: 2rem 0;
+}
+
+img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.details{
+    margin-left: 2rem;
+}
+
+.info{
+    margin-bottom: 1rem;
+}
+
+a, .go{
+    color: orange;
+  }
+
+  .go a{
+    text-decoration: none;
+    padding-right: .5rem;
+  }

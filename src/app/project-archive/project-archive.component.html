@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="back"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> <a [routerLink]="['/']">Samuel Acheampong</a></div>
+
+    <h1>All Projects</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Project</th>
+                <th>Made at/for</th>
+                <th>Stack</th>
+                <th>Link</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr *ngFor="let p of projectList">
+                <td>{{p.Year}}</td>
+                <td style="color: #fff; font-weight: 600;">{{p.Project}}</td>
+                <td>{{p.Client}}</td>
+                <td>{{p.Stack}}</td>
+                <td><a *ngIf="p.Link" href="{{p.Link}}" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+            </tr>
+            
+        </tbody>
+    </table>
+</div>
+

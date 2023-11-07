@@ -1,0 +1,31 @@
+.container{
+    // margin-top: 5rem;
+}
+.activity{
+    display: flex;;
+    margin: 2rem 0;
+}
+
+.header{
+    margin-right: 2rem;
+    display: inline-block;
+    width: 40%;
+}
+
+.main{
+    margin-left: 2rem;
+    width: 100%;
+}
+
+.main div:first-child{
+    font-weight: 600;
+    color: #fff;
+}
+
+ul{
+    padding: 0;
+}
+
+ul li{
+    margin-bottom: .5rem;
+}
